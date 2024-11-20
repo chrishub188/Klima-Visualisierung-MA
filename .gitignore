@@ -1,0 +1,31 @@
+node_modules
+
+# Output
+.output
+.vercel
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Static
+/static/data/old/*
+
+static/images/logos/*
+static/images/maps/district/*
+static/images/maps/full/*
+!static/images/maps/district/.gitkeep
+!static/images/maps/full/.gitkeep
+static/switch_name_gid.py
